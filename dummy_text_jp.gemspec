@@ -7,9 +7,9 @@ Gem::Specification.new do |gem|
   gem.name          = "dummy_text_jp"
   gem.version       = DummyTextJp::VERSION
   gem.authors       = ["Junichi Ito"]
-  gem.email         = ["jit@sonicgarden.jp"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.email         = ["me@jnito.com"]
+  gem.description   = %q{Japanese dummy text like Lorem Ipsum.}
+  gem.summary       = %q{Dummy text in Japanese.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
