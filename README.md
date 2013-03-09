@@ -1,6 +1,6 @@
 # DummyTextJp
 
-TODO: Write a gem description
+Dummy text in Japanese like Lorem Ipsum.
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+````ruby
+DummyTextJp.text # => Returns long Japanese text.
+
+DummyTextJp.text(10) # => Returns Japanese text in specified length.
+````
 
 ## Contributing
 
