@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["me@jnito.com"]
   gem.description   = %q{Japanese dummy text like Lorem Ipsum.}
   gem.summary       = %q{Dummy text in Japanese.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/JunichiIto/dummy_text_jp"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
