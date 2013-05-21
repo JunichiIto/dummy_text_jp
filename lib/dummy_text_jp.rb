@@ -7,10 +7,14 @@ module DummyTextJp
 EOS
 
   def self.text(length = nil)
-    length ? random_text[Range.new(0, length - 1)] : random_text
+    length ? sentences[Range.new(0, length - 1)] : sentences
   end
 
-  def self.random_text
-    TEXT.strip.split("。").shuffle.join("。")
+  def self.sentences(count = nil)
+    (count ? count.times.map {random_text_array.sample} : random_text_array).join("。") + "。"
+  end
+
+  def self.random_text_array
+    TEXT.strip.split("。").shuffle
   end
 end

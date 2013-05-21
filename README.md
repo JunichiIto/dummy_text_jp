@@ -19,9 +19,13 @@ Or install it yourself as:
 ## Usage
 
 ````ruby
-DummyTextJp.text # => Returns long Japanese text.
+DummyTextJp.text # => ただご評でいうてはならんのうて、... あなたのお創設も若い得下さろるた。
 
-DummyTextJp.text(10) # => Returns Japanese text in specified length.
+DummyTextJp.text(10) # => 自己をところが岡田さ
+
+DummyTextJp.sentences # => 何だかひょろひょろは別に ... 話もこうないます事ある。
+
+DummyTextJp.sentences(3) # => すなわち言葉か ... 十月で知れうです。ただご評で ... あります。はなはだ今日で ... 云っまいたたなら。
 ````
 
 ## Contributing
